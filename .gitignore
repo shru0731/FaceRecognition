@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model weights and trained models (large binaries)
+*.h5
+*.pkl
+*.yml
+*.json
+
+# Dataset (personal data)
+dataset/
+
+# Logs
+*.log
+
+# Docker build artifacts
+*.tar
